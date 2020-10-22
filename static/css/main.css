@@ -1,0 +1,137 @@
+
+ .dropbtn {
+   
+    color: white;
+    
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  .carousel-inner img {
+    width: 100%;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .social{
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .twitter{
+    position: relative;
+    top : 5px;
+  }
+  .footer{
+    text-align: center;
+    padding: 5px;
+    color: rgba(255,255,255,.5);
+  }
+  .footer a{
+    color: inherit;
+  }
+  .transition{
+    position: relative;
+  }
+  
+  .align{
+    text-align: justify;
+  }
+
+  .fade-in {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  .training{
+    background-image: url('training.jpg');
+    
+  }
+  .tr{
+    background-image: url('training-1.jpg');
+  }
+  .trai{
+    width: 97%;
+  }
+  .aboutus{
+    background-image: url('about.jpg');
+  }
+  html {
+    scroll-behavior: smooth;
+  }

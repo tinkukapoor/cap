@@ -1,0 +1,125 @@
+{% load static %}
+{% get_static_prefix as STATIC %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180757271-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-180757271-1');
+</script>
+
+  <title>Web Solutions</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/fontawesome/css/solid.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{STATIC}}css/main.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a style ="display: contents;" href="/accounts/"><img src="{% static "software/logo.png" %}"  alt="Los Angeles" width="105" height="85"> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item mr-2">
+        <a class="nav-link" href="/accounts/">Home</a>
+      </li>
+      <li class="nav-item mr-2">
+        <div class="dropdown">
+          <a class="nav-link dropbtn">Services
+
+          </a>
+          <div class="dropdown-content">
+          <a href="/accounts/services/">Web Solutions </a>
+          <a href="/accounts/service2/">Digital Marketing</a>
+          </div>
+        </div>
+        
+      </li>
+      <li class="nav-item mr-2">
+        <a class="nav-link" href="/accounts/training/">Industrial Training</a>
+      </li> 
+      <li class="nav-item mr-2">
+        <a class="nav-link" href="/accounts/contact/">Contact Us</a>
+      </li>   
+      <li class="nav-item mr-2">
+        <a class="nav-link" href="/accounts/aboutus/">About Us</a>
+      </li> 
+    </ul>
+    <ul class="navbar-nav ml-2">
+      <li class="nav-item social twitter mr-2">
+        <a href="https://www.linkedin.com/in/capricon-web-a740871ba/" target="_blank"> 
+        <img src="{% static "software/linkedin.png" %}" alt="Los Angeles" width="45" height="39">
+      </li></a>
+      <li class="nav-item social mr-2">
+        <a href="https://www.facebook.com/Capricon-Web-Solutions-102573828310411/?modal=admin_todo_tour " target="_blank">
+        <img src="{% static "software/face.png" %}" alt="Los Angeles" width="53" height="43">
+      </li></a>
+      <li class="nav-item social mr-2">
+        <a href="https://twitter.com/CapriconSoluti1  " target="_blank">
+        <img src="{% static "software/twitter1.png" %}" alt="Los Angeles" width="58" height="48">
+      </li></a>
+         
+    </ul>
+  </div>  
+</nav>
+
+    <div class="fade-in">
+        <img src="{% static "software/top11.png" %}" width="100%" >
+     </div>
+     <div class="container-fluid">
+        
+            <h3 class="pt-2" style="color:blue;">Web Development</h3>
+            <p style="text-align: justify;" class="align pt-2">
+                Capricon is broadly specialize in Software Development, Website-Designing. We develop a full website for your company or business or 
+               can be for anything.In today's market website is must for everyone.A web application is software that runs on a web browser. Today we are having thousands of web apps around us. These web apps make our life easier with their functionality.<br>
+               
+              Capricon provides you different type of web services.</p>
+              <h5 class="pt-2">CMS (Content management System)</h5>
+                <p style="text-align: justify;" class="align pt-2">
+                  Content management system is a software specially designed for the admin. For example "If you have a website for your restaurant and you want to change the pictures and menu or any other content so with the help of cms portal you can make those changes very easily". This content not only includes the text but also images, banners and logos etc. It is a whole package in which different modules are integrated and they help the user for various kinds of operations.
+                  <br>
+                  A CMS is designed and developed by the combined effort of both web designer and a developer and capricon team is capable in their particular department.
+
+                </p>
+                <p style="text-align: justify;" class="align pt-3">
+            
+                  Capricon web solutions also provide the web applications development on different frameworks like Django,Flash using backend languages like Python, PHP etc. We on the whole provide the best and quality
+                  service to our customers. Capricon solutions also provides best marketing facilities on line to the customer.Customer satisfaction and solution to the Problem of customer is the main focus of capricon
+                  web solutions.
+                </p>
+        
+
+     </div>
+
+     <nav class=" navbar-expand-sm bg-dark navbar-dark">
+    <div class="footer">
+    <p>Capricon Web Solutions</p>
+      <p>
+        <a  href="/accounts/">Home</a>
+        .
+        <a href="/accounts/contact/">Contact Us</a>
+        . 
+        <a href="/accounts/aboutus/">About Us</a>
+      </p>
+    </div>
+    
+    
+    </ul>
+  </nav>
+</body>
+</html>
